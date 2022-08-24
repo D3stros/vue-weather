@@ -1,6 +1,6 @@
 <template>
 <div id="app">
-<main><div class="searchbox">
+<main><div class="search-box">
 <input type="text" class="search-bar" placeholder="Search...">
 </div>
 <div class="weather-wrap">
@@ -55,7 +55,7 @@ main {
     margin-bottom: 30px;
   }
 
-  .searchbox .search-bar {
+  .search-box .search-bar {
     display: block;
     width: 100%;
     padding: 15px;
@@ -71,7 +71,7 @@ main {
     transition: 0.4s;
   }
 
-  .searchbox .search-bar:focus {
+  .search-box .search-bar:focus {
     box-shadow: 0px 0px 16px rgba(0,0,0,0.25);
     background-color: rgba(255,255,255,0.75);
     border-radius: 16px 0px 16px 0px;
